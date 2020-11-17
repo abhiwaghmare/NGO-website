@@ -1,0 +1,182 @@
+body{
+    font: 15px/1.5 Ariel,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background:#e8491d ;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*header*/
+header{
+    background: #003153;
+    color: #0b3c97;
+    padding-top: 50px;
+    min-height: 150px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d ;
+    font-weight: bold;
+}
+
+header .highlight1{
+    color:#ffffff ;
+    font-weight: bold;
+}
+
+header .highlight2{
+    color:#0b8b16 ;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height: 600px;
+    background:url('https://media.gettyimages.com/photos/volunteers-at-a-street-play-as-a-part-of-a-cleanup-drive-at-nagar-picture-id691198386?s=2048x2048') no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 340px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #311edd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#showcase p{
+    font-size: 20px;
+    color:black;
+    ;
+}
+
+/*newsletter*/
+#volunteer{
+    padding: 15px;
+    color: #ffffff;
+    background:  #003153;
+}
+
+#volunteer h1{
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#volunteer form{
+    float: right;
+    margin-top: 20px;
+}
+
+
+#contact{
+    margin-top:0px;
+    background-color: rgba(255, 255, 255, 0.603);
+    color: black;
+}
+
+#contact h1{
+    margin-top: 20px;
+    color: #1338be;
+    text-align: center;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contact .address{
+    padding-top: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*DONATE*/
+#donate{
+    margin-top:0px;
+    background-color: #ffffff;
+    color: black;
+}
+
+#donate h1{
+    margin-top: 20px;
+    color: #1338be;
+    text-align: center;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#donate .donation{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding:12px;
+}
+#donate .donation img{
+    width: 100%;
+    height: 200px;
+}
+
+
+footer{
+    background:#003153;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
